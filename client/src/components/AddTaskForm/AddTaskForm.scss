@@ -1,0 +1,40 @@
+@use '../../variables.scss';
+.form-container {
+  width: 100%;
+  border: 1px solid variables.$green;
+  padding: 1rem;
+  margin: 2rem 0;
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    label {
+      align-self: flex-start;
+    }
+    input {
+      border: none;
+      font-size: 1rem;
+      width: 100%;
+      margin: 1rem 0;
+      outline: none;
+      border-bottom: 3px solid variables.$green;
+    }
+    button {
+      border: none;
+      padding: 1rem 5rem;
+      background-color: variables.$dark;
+      color: variables.$lightBlue;
+      font-weight: 900;
+      font-size: 1.2rem;
+      display: block;
+      width: 100%;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background-color: variables.$lightBlue;
+        color: variables.$dark;
+        cursor: pointer;
+      }
+    }
+  }
+}

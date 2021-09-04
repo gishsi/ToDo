@@ -1,0 +1,21 @@
+@use '../../variables.scss';
+
+.date {
+  max-width: fit-content;
+  text-align: center;
+  background-color: variables.$green;
+  padding: 2rem;
+  margin: 2rem 0;
+  div {
+    .weekdayName {
+      color: variables.$lightBlue;
+    }
+    .weekdayDay {
+      font-size: 3rem;
+      color: variables.$dark;
+    }
+    .weekdayMonth {
+      color: variables.$lightBlue;
+    }
+  }
+}

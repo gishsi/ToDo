@@ -1,0 +1,31 @@
+@use '../variables.scss';
+
+@mixin d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  @include d-flex;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.add-section {
+  @include d-flex;
+}
+.add-btn {
+  padding: 0.5rem 3rem;
+  border: 1px solid variables.$blue;
+  color: variables.$blue;
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    background-color: variables.$blue;
+    color: variables.$dark;
+  }
+}

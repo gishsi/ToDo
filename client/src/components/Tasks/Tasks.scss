@@ -1,0 +1,8 @@
+@use '../../variables.scss';
+
+.tasks-container {
+  margin: 2rem 0;
+  .tasks-title {
+    color: variables.$green;
+  }
+}

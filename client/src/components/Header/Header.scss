@@ -1,0 +1,13 @@
+@use '../../variables.scss';
+
+header {
+  width: 100%;
+  background-color: variables.$dark;
+  color: variables.$white;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 2rem;
+  span {
+    color: variables.$blue;
+  }
+}

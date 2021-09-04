@@ -1,0 +1,23 @@
+@use '../../../variables.scss';
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.2rem 0;
+  border: 1px solid variables.$dark;
+  padding: 1.2rem 0.5rem;
+  div {
+    p {
+      color: variables.$blue;
+    }
+  }
+  .delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
