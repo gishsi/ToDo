@@ -20,11 +20,16 @@ and run:
 npm install -g
 ```
 This will install all the required dependencies.
+Now make a .env file with the TODO_DB variable set to your MongoDB atlas database URL.
 Next, run:
 ```
 node ./server.js
 ```
 By doing this, the back-end of this app will be run on your localhost.
+
+
+
+
 Next, go back to the root directory,
 
 ```
