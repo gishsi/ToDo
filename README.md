@@ -17,6 +17,11 @@ cd server
 ```
 and run:
 ```
+npm install -g
+```
+This will install all the required dependencies.
+Next, run:
+```
 node ./server.js
 ```
 By doing this, the back-end of this app will be run on your localhost.
@@ -31,7 +36,11 @@ cd client
 ```
 and run:
 ```
+npm install -g
+```
+This will install all the required dependencies.
+Next, run:
+```
 npm start
 ```
-This will start the front-end of this application, which is written with ReactJS.
-##
+This will start the front-end of this application.
